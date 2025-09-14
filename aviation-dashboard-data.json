@@ -1,0 +1,500 @@
+{
+  "airports": [
+    {
+      "id": "JFK",
+      "name": "John F. Kennedy",
+      "region": "North America",
+      "lat": 40.6413,
+      "lon": -73.7781,
+      "tier": 1,
+      "volume": 62500000,
+      "efficiency": 85
+    },
+    {
+      "id": "LHR",
+      "name": "Heathrow",
+      "region": "Europe",
+      "lat": 51.47,
+      "lon": -0.4543,
+      "tier": 1,
+      "volume": 80900000,
+      "efficiency": 88
+    },
+    {
+      "id": "NRT",
+      "name": "Narita",
+      "region": "Asia",
+      "lat": 35.772,
+      "lon": 140.3929,
+      "tier": 1,
+      "volume": 33400000,
+      "efficiency": 92
+    },
+    {
+      "id": "DXB",
+      "name": "Dubai International",
+      "region": "Middle East",
+      "lat": 25.2532,
+      "lon": 55.3657,
+      "tier": 1,
+      "volume": 86400000,
+      "efficiency": 90
+    },
+    {
+      "id": "LAX",
+      "name": "Los Angeles",
+      "region": "North America",
+      "lat": 33.9425,
+      "lon": -118.4081,
+      "tier": 1,
+      "volume": 87500000,
+      "efficiency": 83
+    },
+    {
+      "id": "CDG",
+      "name": "Charles de Gaulle",
+      "region": "Europe",
+      "lat": 49.0097,
+      "lon": 2.5479,
+      "tier": 1,
+      "volume": 76200000,
+      "efficiency": 87
+    },
+    {
+      "id": "FRA",
+      "name": "Frankfurt",
+      "region": "Europe",
+      "lat": 50.0379,
+      "lon": 8.5622,
+      "tier": 1,
+      "volume": 70600000,
+      "efficiency": 91
+    },
+    {
+      "id": "SIN",
+      "name": "Changi",
+      "region": "Asia",
+      "lat": 1.3644,
+      "lon": 103.9915,
+      "tier": 1,
+      "volume": 68300000,
+      "efficiency": 94
+    },
+    {
+      "id": "SYD",
+      "name": "Sydney",
+      "region": "Oceania",
+      "lat": -33.9399,
+      "lon": 151.1753,
+      "tier": 2,
+      "volume": 44400000,
+      "efficiency": 89
+    },
+    {
+      "id": "PEK",
+      "name": "Beijing Capital",
+      "region": "Asia",
+      "lat": 39.5098,
+      "lon": 116.4105,
+      "tier": 1,
+      "volume": 100900000,
+      "efficiency": 86
+    },
+    {
+      "id": "ICN",
+      "name": "Incheon",
+      "region": "Asia",
+      "lat": 37.4602,
+      "lon": 126.4407,
+      "tier": 1,
+      "volume": 71200000,
+      "efficiency": 93
+    },
+    {
+      "id": "AMS",
+      "name": "Amsterdam Schiphol",
+      "region": "Europe",
+      "lat": 52.3105,
+      "lon": 4.7683,
+      "tier": 1,
+      "volume": 71700000,
+      "efficiency": 88
+    }
+  ],
+  "aircraftData": [
+    {
+      "model": "Boeing 777-300ER",
+      "manufacturer": "Boeing",
+      "capacity": 396,
+      "range": 14690,
+      "fuelEfficiency": 3.2,
+      "reliability": 96,
+      "category": "Wide-body",
+      "costIndex": 85
+    },
+    {
+      "model": "Airbus A380-800",
+      "manufacturer": "Airbus",
+      "capacity": 853,
+      "range": 15200,
+      "fuelEfficiency": 2.9,
+      "reliability": 94,
+      "category": "Super-jumbo",
+      "costIndex": 92
+    },
+    {
+      "model": "Boeing 787-9",
+      "manufacturer": "Boeing",
+      "capacity": 290,
+      "range": 14800,
+      "fuelEfficiency": 4.1,
+      "reliability": 98,
+      "category": "Wide-body",
+      "costIndex": 78
+    },
+    {
+      "model": "Airbus A350-900",
+      "manufacturer": "Airbus",
+      "capacity": 325,
+      "range": 15000,
+      "fuelEfficiency": 3.8,
+      "reliability": 97,
+      "category": "Wide-body",
+      "costIndex": 80
+    },
+    {
+      "model": "Boeing 737 MAX 8",
+      "manufacturer": "Boeing",
+      "capacity": 189,
+      "range": 6570,
+      "fuelEfficiency": 4.5,
+      "reliability": 95,
+      "category": "Narrow-body",
+      "costIndex": 65
+    },
+    {
+      "model": "Airbus A321neo",
+      "manufacturer": "Airbus",
+      "capacity": 244,
+      "range": 7400,
+      "fuelEfficiency": 4.3,
+      "reliability": 96,
+      "category": "Narrow-body",
+      "costIndex": 68
+    }
+  ],
+  "routes": [
+    {
+      "id": "JFK-NRT",
+      "source": "JFK",
+      "target": "NRT",
+      "distance": 10829,
+      "frequency": 1,
+      "aircraft": "Boeing 787-9",
+      "airline": "British Airways",
+      "passengers": 255
+    },
+    {
+      "id": "JFK-SYD",
+      "source": "JFK",
+      "target": "SYD",
+      "distance": 16013,
+      "frequency": 5,
+      "aircraft": "Boeing 787-9",
+      "airline": "British Airways",
+      "passengers": 1157
+    },
+    {
+      "id": "JFK-ICN",
+      "source": "JFK",
+      "target": "ICN",
+      "distance": 11090,
+      "frequency": 2,
+      "aircraft": "Boeing 737 MAX 8",
+      "airline": "American Airlines",
+      "passengers": 251
+    },
+    {
+      "id": "JFK-AMS",
+      "source": "JFK",
+      "target": "AMS",
+      "distance": 5848,
+      "frequency": 2,
+      "aircraft": "Airbus A321neo",
+      "airline": "Japan Airlines",
+      "passengers": 340
+    },
+    {
+      "id": "NRT-SYD",
+      "source": "NRT",
+      "target": "SYD",
+      "distance": 7832,
+      "frequency": 5,
+      "aircraft": "Boeing 737 MAX 8",
+      "airline": "American Airlines",
+      "passengers": 609
+    },
+    {
+      "id": "DXB-JFK",
+      "source": "DXB",
+      "target": "JFK",
+      "distance": 11001,
+      "frequency": 2,
+      "aircraft": "Airbus A350-900",
+      "airline": "Lufthansa",
+      "passengers": 391
+    },
+    {
+      "id": "LAX-NRT",
+      "source": "LAX",
+      "target": "NRT",
+      "distance": 8753,
+      "frequency": 1,
+      "aircraft": "Boeing 777-300ER",
+      "airline": "Emirates",
+      "passengers": 296
+    },
+    {
+      "id": "LAX-DXB",
+      "source": "LAX",
+      "target": "DXB",
+      "distance": 13400,
+      "frequency": 5,
+      "aircraft": "Airbus A380-800",
+      "airline": "Singapore Airlines",
+      "passengers": 3907
+    },
+    {
+      "id": "LAX-SIN",
+      "source": "LAX",
+      "target": "SIN",
+      "distance": 14101,
+      "frequency": 1,
+      "aircraft": "Airbus A321neo",
+      "airline": "Japan Airlines",
+      "passengers": 241
+    },
+    {
+      "id": "LAX-SYD",
+      "source": "LAX",
+      "target": "SYD",
+      "distance": 12061,
+      "frequency": 4,
+      "aircraft": "Boeing 777-300ER",
+      "airline": "Emirates",
+      "passengers": 1147
+    },
+    {
+      "id": "LAX-ICN",
+      "source": "LAX",
+      "target": "ICN",
+      "distance": 9627,
+      "frequency": 6,
+      "aircraft": "Boeing 787-9",
+      "airline": "British Airways",
+      "passengers": 1104
+    },
+    {
+      "id": "LAX-AMS",
+      "source": "LAX",
+      "target": "AMS",
+      "distance": 8956,
+      "frequency": 4,
+      "aircraft": "Airbus A350-900",
+      "airline": "Lufthansa",
+      "passengers": 1024
+    },
+    {
+      "id": "CDG-LHR",
+      "source": "CDG",
+      "target": "LHR",
+      "distance": 347,
+      "frequency": 6,
+      "aircraft": "Boeing 777-300ER",
+      "airline": "Emirates",
+      "passengers": 1671
+    },
+    {
+      "id": "CDG-NRT",
+      "source": "CDG",
+      "target": "NRT",
+      "distance": 9710,
+      "frequency": 6,
+      "aircraft": "Airbus A380-800",
+      "airline": "Singapore Airlines",
+      "passengers": 4414
+    },
+    {
+      "id": "CDG-ICN",
+      "source": "CDG",
+      "target": "ICN",
+      "distance": 8927,
+      "frequency": 6,
+      "aircraft": "Airbus A350-900",
+      "airline": "Lufthansa",
+      "passengers": 1400
+    },
+    {
+      "id": "CDG-AMS",
+      "source": "CDG",
+      "target": "AMS",
+      "distance": 399,
+      "frequency": 3,
+      "aircraft": "Boeing 737 MAX 8",
+      "airline": "American Airlines",
+      "passengers": 492
+    },
+    {
+      "id": "FRA-JFK",
+      "source": "FRA",
+      "target": "JFK",
+      "distance": 6189,
+      "frequency": 1,
+      "aircraft": "Boeing 777-300ER",
+      "airline": "Emirates",
+      "passengers": 329
+    },
+    {
+      "id": "FRA-LHR",
+      "source": "FRA",
+      "target": "LHR",
+      "distance": 654,
+      "frequency": 1,
+      "aircraft": "Airbus A380-800",
+      "airline": "Singapore Airlines",
+      "passengers": 698
+    },
+    {
+      "id": "FRA-NRT",
+      "source": "FRA",
+      "target": "NRT",
+      "distance": 9366,
+      "frequency": 6,
+      "aircraft": "Boeing 787-9",
+      "airline": "British Airways",
+      "passengers": 1354
+    },
+    {
+      "id": "FRA-LAX",
+      "source": "FRA",
+      "target": "LAX",
+      "distance": 9321,
+      "frequency": 4,
+      "aircraft": "Boeing 737 MAX 8",
+      "airline": "American Airlines",
+      "passengers": 634
+    },
+    {
+      "id": "FRA-SYD",
+      "source": "FRA",
+      "target": "SYD",
+      "distance": 16496,
+      "frequency": 5,
+      "aircraft": "Boeing 787-9",
+      "airline": "British Airways",
+      "passengers": 1158
+    },
+    {
+      "id": "SIN-LAX",
+      "source": "SIN",
+      "target": "LAX",
+      "distance": 14101,
+      "frequency": 3,
+      "aircraft": "Airbus A321neo",
+      "airline": "Japan Airlines",
+      "passengers": 485
+    },
+    {
+      "id": "SIN-CDG",
+      "source": "SIN",
+      "target": "CDG",
+      "distance": 10723,
+      "frequency": 3,
+      "aircraft": "Boeing 777-300ER",
+      "airline": "Emirates",
+      "passengers": 933
+    },
+    {
+      "id": "SIN-SYD",
+      "source": "SIN",
+      "target": "SYD",
+      "distance": 6294,
+      "frequency": 2,
+      "aircraft": "Airbus A350-900",
+      "airline": "Lufthansa",
+      "passengers": 471
+    },
+    {
+      "id": "SYD-FRA",
+      "source": "SYD",
+      "target": "FRA",
+      "distance": 16496,
+      "frequency": 4,
+      "aircraft": "Boeing 787-9",
+      "airline": "British Airways",
+      "passengers": 1080
+    },
+    {
+      "id": "PEK-CDG",
+      "source": "PEK",
+      "target": "CDG",
+      "distance": 8229,
+      "frequency": 3,
+      "aircraft": "Boeing 787-9",
+      "airline": "British Airways",
+      "passengers": 557
+    },
+    {
+      "id": "ICN-NRT",
+      "source": "ICN",
+      "target": "NRT",
+      "distance": 1258,
+      "frequency": 6,
+      "aircraft": "Boeing 777-300ER",
+      "airline": "Emirates",
+      "passengers": 2278
+    },
+    {
+      "id": "ICN-PEK",
+      "source": "ICN",
+      "target": "PEK",
+      "distance": 902,
+      "frequency": 1,
+      "aircraft": "Airbus A380-800",
+      "airline": "Singapore Airlines",
+      "passengers": 549
+    },
+    {
+      "id": "AMS-SIN",
+      "source": "AMS",
+      "target": "SIN",
+      "distance": 10512,
+      "frequency": 2,
+      "aircraft": "Boeing 777-300ER",
+      "airline": "Emirates",
+      "passengers": 629
+    },
+    {
+      "id": "AMS-SYD",
+      "source": "AMS",
+      "target": "SYD",
+      "distance": 16658,
+      "frequency": 4,
+      "aircraft": "Airbus A380-800",
+      "airline": "Singapore Airlines",
+      "passengers": 3293
+    }
+  ],
+  "config": {
+    "theme": "dark",
+    "nodeRadiusMultiplier": 1.3,
+    "linkWidthMultiplier": 1,
+    "simulationStrength": 960,
+    "showLabels": true,
+    "animationSpeed": 1,
+    "liveUpdate": false,
+    "liveIntervalMs": 4000,
+    "selectedAircraft": null,
+    "regionFilter": "North America"
+  }
+}
