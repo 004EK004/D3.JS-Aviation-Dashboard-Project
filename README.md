@@ -14,16 +14,9 @@ Export: HTML Canvas for PNG, JSON stringify for data
 
 📸 Screenshots
 
-Below are placeholders where you can insert screenshots of your dashboard in action.
+Dashboard Overview: https://github.com/004EK004/D3.JS-Aviation-Dashboard-Project/blob/main/aviation-dashboard.png
 
-Dashboard Overview
-
-Route Network Graph
-
-Passenger Volume Trends
-
-
-
+Dashboard Landscape: https://github.com/004EK004/D3.JS-Aviation-Dashboard-Project/blob/main/Dashboard_1.png
 
 🚀 Features
 
